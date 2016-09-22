@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.techmagic.locationapp.activity.MapResultsActivity">
+
+    <item android:id="@+id/action_map_markers"
+        android:title="@string/action_map"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_map_circles"
+        android:title="@string/action_map"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        app:showAsAction="always" />
+
+</menu>

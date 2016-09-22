@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView  android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff2d2c31">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+
+            <LinearLayout  android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                android:gravity="left">
+                <LinearLayout  android:layout_width="120dp"
+                    android:layout_height="40dp" android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+
+                        android:layout_gravity="center_vertical|left"
+                        android:src="@drawable/logo"
+                        android:layout_weight="0.20" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout  android:layout_width="match_parent"
+                android:layout_height="49dp" android:orientation="vertical"
+                android:gravity="left"
+                android:background="#ff262626">
+                <LinearLayout  android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:orientation="horizontal"
+                    android:gravity="left">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/menumywork"
+                        android:background="#fff0644b" />
+                    <Button
+                        android:id="@+id/menubtn_mywork"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Work"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:textColor="#ffffffff" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout  android:layout_width="match_parent"
+                android:layout_height="49dp" android:orientation="vertical" android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:background="#ff262626"
+                >
+                <LinearLayout  android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:orientation="horizontal"
+                    android:gravity="left">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/menuworkitem"
+                        android:background="#ffe36258" />
+                    <Button
+                        android:id="@+id/menubtn_wi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create New Workitem"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:textColor="#ffffffff" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout  android:layout_width="match_parent"
+                android:layout_height="49dp" android:orientation="vertical" android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:background="#ff262626"
+                >
+                <LinearLayout  android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:orientation="horizontal"
+                    android:gravity="left">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/menuquery"
+                        android:background="#ff43b4a0" />
+                    <Button
+                        android:id="@+id/menubtn_query"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create New Query"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:textColor="#ffffffff" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout  android:layout_width="match_parent"
+                android:layout_height="49dp" android:orientation="vertical" android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:background="#ff262626"
+                >
+                <LinearLayout  android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:orientation="horizontal"
+                    android:gravity="left">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/menusettings"
+                        android:background="#ffe1584d" />
+
+                    <Button
+                        android:id="@+id/menubtn_sttings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Settings"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:textColor="#ffffffff" />
+                </LinearLayout>
+            </LinearLayout>
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>

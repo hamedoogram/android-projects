@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="guillotine_background">#2e2a40</color>
+    <color name="guillotine_background_dark">#1f1d29</color>
+    <color name="selected_item_color">#30d1d5</color>
+</resources>

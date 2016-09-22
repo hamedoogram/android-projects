@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/login_ChangeteamProject_button" style="?android:textAppearanceSmall"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="Change Team Project" android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:background="#ff0c7ecc"
+        android:textColor="#ffffff" />
+</LinearLayout>

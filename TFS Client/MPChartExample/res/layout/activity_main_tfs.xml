@@ -1,0 +1,107 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/drawer_layout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ScrollView android:id="@+id/login_form" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff2d2c31">
+
+            <LinearLayout android:id="@+id/email_login_form" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical">
+
+                <LinearLayout android:id="@+id/formHeadLayout" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                    android:gravity="left">
+                    <LinearLayout android:id="@+id/formHeadLayout_inner" android:layout_width="120dp"
+                        android:layout_height="40dp" android:orientation="horizontal"
+                        android:gravity="center_vertical">
+                        <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:id="@+id/imageView"
+                        android:layout_gravity="center_vertical|left"
+                        android:src="@drawable/logo"
+                        android:layout_weight="0.20" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Login to Team Foundation Server"
+                    android:layout_marginTop="35dp" android:layout_marginLeft="5dp"
+                    android:id="@+id/lbl_title"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#fffcfcfd"
+                    android:textStyle="bold" />
+                <EditText android:id="@+id/login_Domain" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="Domain" android:layout_marginLeft="5dp"
+                    android:imeActionId="@+id/login" android:layout_marginTop="10dp"
+                    android:imeActionLabel="domain"
+                    android:text=""
+                    android:imeOptions="actionUnspecified" android:inputType="text"
+                    android:maxLines="1" android:singleLine="true"
+                    android:textColor="#ffffffff"
+                    android:textColorHint="#ffffffff"
+                    android:textSize="15dp" />
+
+                <AutoCompleteTextView android:id="@+id/login_username" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="User Name"
+                    android:inputType="textEmailAddress" android:maxLines="1" android:layout_marginLeft="5dp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#ffffffff"
+                    android:textColorHint="#ffffffff"
+                    android:textSize="15dp" />
+
+                <EditText android:id="@+id/login_password" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Password" android:layout_marginLeft="5dp"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="pass"
+                android:imeOptions="actionUnspecified" android:inputType="textPassword"
+                android:maxLines="1" android:singleLine="true"
+                    android:textColorHint="#ffffffff"
+                    android:textColor="#ffffffff"
+                    android:text=""
+                    android:textSize="15dp" />
+
+
+
+                <Button android:id="@+id/login_sign_in_button" style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp" android:text="Login To TFS" android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:background="#ff0c7ecc"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Result will be here"
+                    android:layout_marginTop="10dp" android:layout_marginLeft="5dp"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ffffffff" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         If you're not building against API 17 or higher, use
+         android:layout_gravity="left" instead. -->
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container. -->
+
+
+</android.support.v4.widget.DrawerLayout>

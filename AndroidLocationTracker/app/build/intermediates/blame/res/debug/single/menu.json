@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/menu/menu_results.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/menu/menu_results.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/menu/menu_main.xml"
+    }
+]

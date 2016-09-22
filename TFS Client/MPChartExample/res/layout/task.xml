@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/Task_form" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff2d2c31">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                android:gravity="left">
+                <LinearLayout android:layout_width="120dp"
+                    android:layout_height="40dp" android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:id="@+id/imageView"
+                        android:layout_gravity="center_vertical|left"
+                        android:src="@drawable/logo"
+                        android:layout_weight="0.20" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Task Workitem"
+                android:layout_marginTop="35dp" android:layout_marginLeft="5dp"
+                android:id="@+id/lbl_task_header"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fffcfcfd"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView android:id="@+id/txt_task_title" android:layout_width="match_parent" android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" android:hint="Title"
+                android:inputType="textEmailAddress" android:maxLines="1" android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textColorHint="#ffffffff"
+                android:textSize="15dp" />
+
+            <EditText android:id="@+id/login_password" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Password" android:layout_marginLeft="5dp"
+                android:imeActionId="@+id/task_login"
+                android:imeActionLabel="pass"
+                android:imeOptions="actionUnspecified" android:inputType="textPassword"
+                android:maxLines="1" android:singleLine="true"
+                android:textColorHint="#ffffffff"
+                android:textColor="#ffffffff"
+                android:textSize="15dp" />
+
+            <EditText android:id="@+id/task_login_Domain" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="Domain" android:layout_marginLeft="5dp"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="domain"
+                android:imeOptions="actionUnspecified" android:inputType="text"
+                android:maxLines="1" android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textColorHint="#ffffffff"
+                android:textSize="15dp" />
+
+            <com.xxmassdeveloper.mpchartexample.DateDisplayPicker
+                android:id="@+id/task_StartDateDayPicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.Holo.Spinner"
+                android:hint="Date"
+                android:textColorHint="@android:color/white"
+                android:layout_marginLeft="5dp" android:textSize="15dp"
+                android:startYear="2015" />
+            <Spinner
+                android:id="@+id/spinnerstate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result will be here"
+                android:layout_marginTop="10dp" android:layout_marginLeft="5dp"
+                android:id="@+id/task_textView" android:textColorHint="#ffffffff"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffffff" />
+
+            <Button android:id="@+id/task_login_sign_in_button" style="?android:textAppearanceSmall"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" android:text="Login To TFS" android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:background="#ff0c7ecc"
+                android:textColor="#ffffff" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

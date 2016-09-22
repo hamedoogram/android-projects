@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guillotine_background_dark"
+    android:orientation="vertical">
+    <View
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guillotine_actionbar_background_view_height"
+        android:background="@color/guillotine_background"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:contentInsetStart="0dp"
+            style="@style/Toolbar">
+
+            <ImageView
+                android:id="@+id/content_hamburger" android:layout_marginLeft="20dp"
+                style="@style/ImageView.Hamburger" android:layout_width="30dp" android:layout_height="30dp"
+                android:src="@drawable/ic_menu_90" />
+
+            <com.yalantis.guillotine.sample.widget.CanaroTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/activity"
+                android:textSize="12dp" />
+        </android.support.v7.widget.Toolbar>
+
+
+
+        <LinearLayout
+            android:id="@+id/activity_group"
+
+            style="@style/LinearLayout.GuillotineItem">
+
+
+
+            <com.yalantis.guillotine.sample.widget.CanaroTextView
+                android:id="@+id/search"
+                style="@style/TextView.GuillotineItem.Selected"
+                android:clickable="true"
+                android:text="@string/patientname"
+                android:textSize="12dp" />
+            <EditText
+                android:id="@+id/survey_name"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:textSize="13dp"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_group"
+
+            style="@style/LinearLayout.GuillotineItem">
+
+
+
+            <com.yalantis.guillotine.sample.widget.CanaroTextView
+                android:id="@+id/search"
+                style="@style/TextView.GuillotineItem.Selected"
+                android:clickable="true"
+                android:text="@string/age"
+                android:textSize="12dp" />
+            <EditText
+                android:id="@+id/survey_age"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:textSize="13dp"
+                android:inputType="number"
+                android:layout_marginLeft="70dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_group"
+
+            style="@style/LinearLayout.GuillotineItem">
+
+
+
+            <com.yalantis.guillotine.sample.widget.CanaroTextView
+                android:id="@+id/search"
+                style="@style/TextView.GuillotineItem.Selected"
+                android:clickable="true"
+                android:text="@string/gender"
+                android:textSize="12dp" />
+            <RadioGroup
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_marginLeft="53dp"
+                android:id="@+id/gendergroup">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Male"
+                    android:id="@+id/male"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Female"
+                    android:id="@+id/female"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_group"
+
+            style="@style/LinearLayout.GuillotineItem">
+
+
+
+            <com.yalantis.guillotine.sample.widget.CanaroTextView
+                android:id="@+id/search"
+                style="@style/TextView.GuillotineItem.Selected"
+                android:clickable="true"
+                android:text="@string/migraines"
+                android:textSize="12dp" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_marginLeft="33dp"
+                android:id="@+id/miggroup">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Yes"
+                    android:id="@+id/mig_yes"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="No"
+                    android:id="@+id/mig_no"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_group"
+
+            style="@style/LinearLayout.GuillotineItem">
+
+
+
+            <com.yalantis.guillotine.sample.widget.CanaroTextView
+                android:id="@+id/search"
+                style="@style/TextView.GuillotineItem.Selected"
+                android:clickable="true"
+                android:text="@string/drugs"
+                android:textSize="12dp" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/druggroup">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Yes"
+                    android:id="@+id/drug_yes"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="No"
+                    android:id="@+id/drug_no"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/activity_group"
+            android:layout_height="40dp"
+            android:gravity="center"
+            style="@style/LinearLayout.GuillotineItem">
+
+
+
+            <com.yalantis.guillotine.sample.widget.CanaroTextView
+                android:id="@+id/txt_viewer"
+                style="@style/TextView.GuillotineItem.Selected"
+                android:clickable="true"
+                android:text="@string/drugs"
+                android:textSize="12dp"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/activity_group"
+            android:layout_height="40dp"
+            android:gravity="center"
+            style="@style/LinearLayout.GuillotineItem">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_submit"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+
+                android:text="Submit"
+                android:layout_gravity="center"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_resultViewer"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+
+                android:text="See Result"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Todd Syndrome Survey</string>
+    <string name="profile">PROFILE</string>
+    <string name="register">TAKE SURVEY</string>
+    <string name="search">SEARCH</string>
+    <string name="survey">SURVEY</string>
+    <string name="about">ABOUT</string>
+    <string name="feed">FEED</string>
+    <string name="activity">Todd Syndrome Survey</string>
+    <string name="settings">SETTINGS</string>
+    <string name="migraines">Do you have migraines?</string>
+    <string name="patientname">Patient Name:</string>
+    <string name="gender">Gender:</string>
+    <string name="age">Age:</string>
+    <string name="drugs">Do you use hallucinogenic drugs?</string>
+    <string name="about_text">This App will present a survey that help doctors identify how likely it is that a person has a neurological condition called Todd’s Syndrome.</string>
+</resources>

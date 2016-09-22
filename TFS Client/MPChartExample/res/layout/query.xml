@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#ff2d2c31">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Work Item Type"
+            android:layout_marginTop="15dp" android:layout_marginLeft="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fffcfcfd"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/spinner_wi_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/wi_type_arrays"
+            android:prompt="@string/prompt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assign To"
+            android:layout_marginTop="15dp" android:layout_marginLeft="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fffcfcfd"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/spinner_wi_Assignto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/wi_type_arrays"
+            android:prompt="@string/prompt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:layout_marginTop="15dp" android:layout_marginLeft="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fffcfcfd"
+            android:textStyle="bold" />
+        <Spinner
+            android:id="@+id/spinner_wi_State"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/wi_type_arrays"
+            android:prompt="@string/prompt"/>
+
+        <Button android:id="@+id/query_button" style="?android:textAppearanceSmall"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="Execute Query" android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:background="#ff0c7ecc"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</LinearLayout>

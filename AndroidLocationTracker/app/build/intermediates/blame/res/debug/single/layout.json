@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/fragment_geo_fence.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/layout/fragment_geo_fence.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/activity_results.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/layout/activity_results.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/activity_track_geo_fence.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/layout/activity_track_geo_fence.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/dialog_edit_name.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/layout/dialog_edit_name.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/fragment_menu.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/layout/fragment_menu.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/fragment_add_geo_point_dialog.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/layout/fragment_add_geo_point_dialog.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/list_item_menu.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/layout/list_item_menu.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/AnwarHayat/Desktop/track-my-location-develop/track-location/LocationAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_icon.xml"
+    }
+]

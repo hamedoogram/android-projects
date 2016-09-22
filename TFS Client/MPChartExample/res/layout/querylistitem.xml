@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" android:orientation="vertical" android:layout_marginTop="20dp" >
+
+    <TextView
+        android:id="@+id/querytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:text="Medium Text"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/queryassign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvName"
+        android:layout_below="@+id/tvName"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:text="Benefits of having a SecurityClearedJobs.com candidate account: Found more jobs you want to apply for? Log-in to your account and we’ll pre fill the application for you. We’ll even keep a central record of your applications Make shortlists – bookmark jobs that interest you and come back to them later Get headhunted – create a profile and publish your cv so interested employers can get in touch"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/querystate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="40dp"
+        android:text="small Text"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/querydescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvName"
+        android:layout_below="@+id/tvName"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="60dp"
+        android:text="small Text"
+        android:textSize="16dp" />
+
+</LinearLayout>
